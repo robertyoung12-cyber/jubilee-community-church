@@ -150,6 +150,27 @@ a:hover {
   color: #ffffff !important;
 }
 
+/* Uniform button styles for all variants */
+.btn,
+.btn-primary,
+[class*="btn-outline"] {
+  background-color: #0066cc !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 4px !important;
+  padding: 0.5rem 1rem !important;
+  margin: 0.25rem !important;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn:hover,
+.btn-primary:hover,
+[class*="btn-outline"]:hover {
+  background-color: #004a99 !important;
+  color: #ffffff !important;
+}
+
 .hero h1,
 .hero .lead {
   color: #ffffff;

@@ -193,6 +193,22 @@ a:hover {
   color: #ffffff;
 }
 
+
+/* Hide header brand mark and tagline */
+.brand-mark, .brand-tagline {
+  display: none !important;
+}
+
+/* Hide Faithlife notice */
+.section .cards .card p.small {
+  display: none !important;
+}
+
+/* Hide watch embed iframe and note */
+#watch .embed-frame iframe,
+#watch .embed-frame p.small {
+  display: none !important;
+}
 /* Header styling */
 .site-header {
   background-color: #0b0f14;

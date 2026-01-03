@@ -71,7 +71,64 @@ body {
   display: none;
 }
 
-/* Ensure hero text elements are white for contrast */
+/* Ensure hero text elements are white for contrast 
+/* Override header and navigation colors */
+.site-header,
+.nav {
+  background-color: #0b0f14 !important;
+}
+
+.nav a {
+  color: #f5f5f5 !important;
+}
+
+.nav a:hover {
+  color: #cccccc !important;
+}
+
+/* Dark theme for light sections */
+.section--light {
+  background-color: #12171e !important;
+  color: #f5f5f5 !important;
+}
+
+/* Full-width container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Link colors */
+a {
+  color: #66b3ff;
+}
+
+a:hover {
+  color: #99cfff;
+}
+*/
+/* Updated hero section with local image */
+.hero {
+  min-height: 60vh;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../../IMG_0833.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff !important;
+}
+
+/* Header and navigation dark theme */
+.site-header,
+.nav {
+  background-color: #0b0f14 !important;
+}
+.nav a {
+  color: #f5f5f5 !important;
+}
+.nav a:hover {
+  color: #cccccc !important;
+}
+
 .hero h1,
 .hero .lead {
   color: #ffffff;

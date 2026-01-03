@@ -1,6 +1,6 @@
-/* Custom overrides */
+/* Improve readability by darkening text color in hero section */
 .hero,
 .hero h1,
 .hero .lead {
-  color: #333;
+  color: #333 !important;
 }

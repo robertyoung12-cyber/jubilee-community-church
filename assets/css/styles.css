@@ -215,3 +215,16 @@ body {
 .section.alt {
   background-color: #f5f9fb;
 }
+
+/* Hero background image */
+.hero {
+  background-image: url('https://source.unsplash.com/1600x900/?church,worship');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+
+.hero h1,
+.hero .lead {
+  color: #ffffff;
+}

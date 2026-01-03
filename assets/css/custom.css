@@ -171,6 +171,23 @@ a:hover {
   color: #ffffff !important;
 }
 
+/* Hide brand mark and tagline */
+.brand-mark,
+.brand-tagline {
+  display: none !important;
+}
+
+/* Hide Faithlife note */
+.cards .card .small {
+  display: none !important;
+}
+
+/* Hide YouTube embed and playlist note */
+#watch iframe,
+#watch .small {
+  display: none !important;
+}
+
 .hero h1,
 .hero .lead {
   color: #ffffff;

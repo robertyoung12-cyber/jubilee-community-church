@@ -166,3 +166,52 @@ body {
     flex-direction: column;
   }
 }
+
+/* Custom color palette */
+:root {
+  --primary-color: #2a6592;
+  --accent-color: #e67e22;
+  --light-text: #ffffff;
+}
+
+/* Apply primary colors */
+.site-header {
+  background-color: var(--primary-color);
+  color: var(--light-text);
+}
+
+.nav a {
+  color: var(--light-text);
+}
+
+.nav a:hover {
+  color: var(--accent-color);
+}
+
+.brand {
+  color: var(--light-text);
+}
+
+.btn-primary {
+  background-color: var(--accent-color);
+  color: var(--light-text);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #cf711c;
+}
+
+.btn-outline {
+  border: 2px solid var(--accent-color);
+  color: var(--accent-color);
+}
+
+.btn-outline:hover {
+  background-color: var(--accent-color);
+  color: var(--light-text);
+}
+
+.section.alt {
+  background-color: #f5f9fb;
+}

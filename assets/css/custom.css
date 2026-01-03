@@ -1,6 +1,21 @@
-/* Improve readability by darkening text color in hero section */
-.hero,
+/* Custom overrides for professional look */
+
+/* Hero section: add dark overlay and high-quality Unsplash image */
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://source.unsplash.com/1600x900/?church,worship,community');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff !important;
+}
+
+/* Hide the hero media placeholder */
+.hero-media {
+  display: none;
+}
+
+/* Ensure hero text elements are white for contrast */
 .hero h1,
 .hero .lead {
-  color: #333 !important;
+  color: #ffffff !important;
 }

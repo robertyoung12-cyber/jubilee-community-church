@@ -1,9 +1,9 @@
 /* Custom overrides for professional look */
 
-/* Hero section: add dark overlay and smaller Unsplash image with min height */
+/* Hero section: dark overlay and background image */
 .hero {
   min-height: 60vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://source.unsplash.com/1200x600/?church,worship,community');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://source.unsplash.com/1600x800/?church,worship,community');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,17 +24,17 @@ body {
 
 /* Card styling */
 .card {
-  background-color: #1c2331;
-  color: #f5f5f5;
-  border: none;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: #1a2230;
+  border: 1px solid #2f3b52;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  padding: 1rem;
 }
 
-/* Buttons */
+/* Button styling */
 .btn {
   border-radius: 4px;
-  padding: 0.6rem 1.2rem;
-  font-weight: 600;
+  padding: 0.5rem 1rem;
 }
 
 .btn-primary {
@@ -74,5 +74,14 @@ body {
 /* Ensure hero text elements are white for contrast */
 .hero h1,
 .hero .lead {
-  color: #ffffff !important;
+  color: #ffffff;
+}
+
+/* Header styling */
+.site-header {
+  background-color: #0b0f14;
+}
+
+.site-header a {
+  color: #f5f5f5;
 }

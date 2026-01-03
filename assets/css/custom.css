@@ -204,6 +204,27 @@ a:hover {
   display: none !important;
 }
 
+/* Hide header brand mark and tagline (more specific) */
+.site-header .brand-mark,
+.site-header .brand-tagline {
+  display: none !important;
+}
+
+/* Hide Faithlife and playlist notes using generic small text removal */
+.cards .card p.small {
+  display: none !important;
+}
+
+/* Equal height for cards and align buttons */
+.cards .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cards .card .btn {
+  margin-top: auto;
+}
+
 /* Hide watch embed iframe and note */
 #watch .embed-frame iframe,
 #watch .embed-frame p.small {

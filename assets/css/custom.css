@@ -1,0 +1,6 @@
+/* Custom overrides */
+.hero,
+.hero h1,
+.hero .lead {
+  color: #333;
+}

@@ -1,0 +1,168 @@
+/* Basic reset */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f7f7f7;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.site-header {
+  background: #fff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.brand-mark {
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.brand-text .brand-name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav a[aria-current="page"] {
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #3f51b5;
+  color: #fff;
+  border: none;
+}
+
+.btn-outline {
+  border: 1px solid #3f51b5;
+  color: #3f51b5;
+  background: transparent;
+}
+
+.hero {
+  background: #f2f2f2;
+  padding: 80px 0;
+}
+
+.hero h1 {
+  margin-top: 0;
+}
+
+.lead {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.section.alt {
+  background: #f2f2f2;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1 1 250px;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.small.muted {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.site-footer {
+  background: #222;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.footer-links a {
+  color: #aaa;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header-inner, .footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav {
+    margin-top: 10px;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+}

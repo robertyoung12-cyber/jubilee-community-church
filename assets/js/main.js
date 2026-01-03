@@ -8,3 +8,14 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 });
+
+// Make gallery images clickable to open full size
+window.addEventListener('DOMContentLoaded', function() {
+  var galleryImages = document.querySelectorAll('.photo-gallery img, .gallery img');
+  galleryImages.forEach(function(img) {
+    img.style.cursor = 'pointer';
+    img.addEventListener('click', function() {
+      window.open(img.src, '_blank');
+    });
+  });
+});

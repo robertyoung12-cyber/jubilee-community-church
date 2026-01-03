@@ -1,8 +1,9 @@
 /* Custom overrides for professional look */
 
-/* Hero section: add dark overlay and high-quality Unsplash image */
+/* Hero section: add dark overlay and smaller Unsplash image with min height */
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://source.unsplash.com/1600x900/?church,worship,community');
+  min-height: 60vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://source.unsplash.com/1200x600/?church,worship,community');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
